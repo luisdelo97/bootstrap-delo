@@ -52,3 +52,13 @@
 ## Formularios
 
 - Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.
+
+---
+
+## Components
+
+- Accordions: Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.
+
+---
+
+## Utilities
