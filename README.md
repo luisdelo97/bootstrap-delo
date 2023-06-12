@@ -19,3 +19,36 @@
 
 - los containers nos dan espaciados a los lados izq y der
 - la clase container-fluid fluye como la que no tiene contenedor
+
+---
+
+## Offsetting Columns
+
+- a la div que ocupa 6 espacios se le agrega la clase offset-3 para que a su izquierda queden 3 espacios vacios de la grid
+
+---
+
+## Gutters, Utilities y CSS Grid
+
+- Gutters: sirven para el espacio entre las columnas
+- Utiities: sirven para el espacio entre las columnas
+
+---
+
+## Seccion Content
+
+### Typography:
+
+- headings, displays, small, text bold, text highlighting, italic text,blockquotes,allignment text center,start,end,etc
+
+## Imagenes
+
+- img-fluid:This applies max-width: 100%; and height: auto;
+
+## Tablas y figures
+
+---
+
+## Formularios
+
+-
