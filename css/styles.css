@@ -1,3 +1,59 @@
+/* Reseteo de estilos */
+:root {
+  --first-color: rgb(217, 0, 98);
+  --first-alpha-color: rgba(217, 0, 98, 0.75);
+  --second-color: rgb(20, 25, 45);
+  --second-alpha-color: rgba(20, 25, 45, 0.75);
+  --third-color: rgb(80, 20, 100);
+  --third-alpha-color: rgba(80, 20, 100, 0.75);
+
+  --link-color: rgb(80, 158, 227);
+  --link-alpha-color: rgba(80, 158, 227, 0.75);
+
+  --bg-color: rgb(245, 245, 245);
+  --bg-alpha-color: rgba(245, 245, 245, 0.75);
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-brand img {
+  height: 30px;
+  width: auto;
+}
+
+.bg-dark {
+  background-color: var(--second-color) !important;
+}
+
+.nav-link {
+  margin-left: 0.8rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--first-color);
+}
+.nav-link:hover {
+  color: var(--bs-white);
+}
+
+[data-bs-theme="dark"] .navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  transition: all 0.3s ease-out;
+}
+[data-bs-theme="dark"] .navbar-toggler-icon:hover {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  opacity: 0.75;
+}
+.nav-item {
+  transition: all 0.3s ease-out;
+}
+.navbar-toggler {
+  border: none;
+}
+.nav-item:hover {
+  background-color: var(--first-alpha-color);
+}
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
