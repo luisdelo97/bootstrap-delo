@@ -43,6 +43,14 @@ a:hover {
 .bg-color {
   background-color: var(--bg-color);
 }
+.bg-alpha-color {
+  background-color: var(--bg-alpha-color);
+}
+
+/* fondo clientes */
+.bg-second-alpha-color {
+  background-color: var(--second-alpha-color);
+}
 
 .bg-gradient-blue-green {
   background-color: rgba(83, 184, 152, 1);
@@ -64,6 +72,13 @@ a:hover {
 
 .bg-dark {
   background-color: var(--second-color) !important;
+}
+/* simgle page y multi page */
+.bg-hero-image {
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 /* Colores de los controles del carousel lo que le procede a %23(en hexadecimal)*/
 .carousel-control-prev-icon {
